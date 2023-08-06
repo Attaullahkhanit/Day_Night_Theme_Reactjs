@@ -1,0 +1,151 @@
+
+*{
+    color: var(--secondary-color);
+}
+
+:root {
+    --primary-color: #C6172B;
+    --secondary-color: #ffffff;
+}
+.dark-theme {
+    --primary-color: #808080;
+    --secondary-color: #ffffff;  
+}
+
+/* Moon Icons */
+.moon{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+/* sidebar section */
+
+.bisearch{
+  color: var(--secondary-color)
+}
+.headingtitle{
+    color: var(--secondary-color);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.webcontent {
+    background-color:  var(--primary-color);
+    color: var(--secondary-color);
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Image side */
+.section1{
+    height: 100vh;
+}
+.imgbgbanner {
+    width: 100%;
+    height: 180vh;
+    background-size: contain; /* Scale the image to cover the entire section */
+    background-position: center; /* Center the image within the section */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    position: relative;
+}
+.imgbarcls{
+    position: relative;
+} 
+.imgbarbgbannercls{
+    position: absolute;
+} 
+
+.vertical1-hr {
+    position: absolute;
+    border-left: 10px solid var(--primary-color);
+    height: 180vh;
+    z-index: 10;
+    margin-left: 30px;
+}
+.vertical2-hr {
+    position: absolute;
+    border-left: 4px solid var(--primary-color);
+    height: 180vh;
+    z-index: 30;
+    margin-left: 70px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between items */
+    
+  }
+  li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  li a:hover{
+    color: none;
+  }
+
+
+  .headingentiretxt {
+    color: var(--secondary-color);
+    font-family: Barlow Condensed;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 93.333% */
+  }
+  .paraEntiretxt {
+    color: var(--secondary-color);
+
+    /* Heighlights */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .iconscls{
+    color: var(--primary-color);
+  }
+
+  .btncls{
+    display: inline-flex;
+    padding: 6px 40px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--secondary-color);
+    color: var(--primary-color);
+  }
+  .btncls i{
+    color: var(--primary-color);
+  }
+  .btn2cls{
+    display: inline-flex;
+    padding: 6px 50px;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+  }
+
+
+  /* social icons css */
+  a , i{
+    color: var(--primary-color);
+  }
+  .btnlink{
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+  .socialicons{
+    color: var(--primary-color);
+  }
